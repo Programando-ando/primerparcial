@@ -1,0 +1,143 @@
+/* Fondo de pantalla */
+body {
+    background: rgb(0,50,0); /* Verde oscuro */
+    background: radial-gradient(circle, rgba(0,50,0,1) 0%, rgba(34,139,34,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #004d00;
+    border-bottom: 2px solid #77ff77;
+    color: white;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Cards de productos */
+#catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.prenda {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 15px;
+    width: 300px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+}
+
+.prenda img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.prenda h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #004d00;
+    font-family: 'Roboto Slab', serif;
+}
+
+.prenda p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.prenda .botones {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.prenda .boton {
+    background-color: #66ff66;
+    color: #004d00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.prenda .boton:hover {
+    background-color: #99ff99;
+}
+
+/* Sidebar del carrito */
+#carrito-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: black;
+    overflow-y: auto;
+}
+
+#carrito-sidebar h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #004d00;
+    text-align: center;
+}
+
+.table {
+    color: black;
+    background-color: white;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+#total-carrito-display {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#confirmarCompra {
+    background-color: #c55f0b;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#confirmarCompra:hover {
+    background-color: #77ff77;
+}
+
+/* Estilo del botón "salir" */
+.btn-danger {
+    background-color: #ff4d4d;
+}
+
+.btn-danger:hover {
+    background-color: #ff6666;
+}
+

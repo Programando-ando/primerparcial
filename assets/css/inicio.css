@@ -1,0 +1,75 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Roboto Slab', serif;
+  color: #008000;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 2px solid #008000;
+}
+
+.navbar-brand, .navbar-text {
+  color: #008000;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #008000;
+  border-color: #008000;
+  color: white;
+}
+
+.modal-header, .modal-footer {
+  background-color: #008000;
+  color: white;
+}
+
+.modal-content {
+  border: 2px solid #008000;
+  border-radius: 10px;
+}
+
+.modal-header h1 {
+  font-size: 1.5rem;
+}
+
+.modal-footer .btn {
+  background-color: #008000;
+  border-color: #008000;
+}
+
+.modal-footer .btn:hover {
+  background-color: #004d00;
+  border-color: #004d00;
+}
+
+.modal-body .form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+.card-header {
+  background-color: #008000;
+  color: white;
+}
+
+.card-footer {
+  background-color: #ffffff;
+  color: #008000;
+}
+
+.btn svg {
+  margin-left: 8px;
+}
